@@ -1,0 +1,44 @@
+.Pricing_container{
+    display: flex;
+    justify-content: space-around;
+    margin: 2vh 10vw;
+}
+.price_contain{
+    border: 1px solid black;
+    min-height: 20vw;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.Pricing_section h1{
+    text-align: center;
+}
+
+.mini_icon img{
+width: 50px;
+}
+.mini_icon{
+    margin-left: 10vw;
+}
+.price_contain h4{
+    margin: 2vh 1vw;
+}
+.Pricing_button button{
+    background-color: rgb(54, 189, 225);
+    width: 15rem;
+    height: 2rem;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.Pricing_button button a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width:720px) {
+    
+ .Pricing_container{
+        display: block;
+    }
+}

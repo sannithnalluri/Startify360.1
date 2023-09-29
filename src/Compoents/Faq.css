@@ -1,0 +1,83 @@
+/* Centering the FAQ section horizontally */
+.Faq_Section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vh auto; /* Center vertically and adjust horizontally */
+    max-width: 45vw;
+    font-family: 'Titilliumweb';
+    font-weight: 400;
+}
+
+/* Styling the FAQ heading */
+.Faq_Heading {
+    width: 30vw;
+    text-align: center; /* Center the heading text */
+    margin-bottom: 3vh; /* Add some space between heading and questions */
+
+}
+
+.Faq_Heading h4 {
+    width: 100%; /* Make the heading text span the entire width */
+    margin-top: 2vh; /* Slightly adjust the top margin */
+}
+
+.Faq_Heading button {
+    margin-top: 2vh; /* Adjust button margin */
+    width: 70%; /* Make the button span the entire width */
+    height: 3rem; /* Increase button height for better visibility */
+    background-color: rgb(54,189,225);
+    border: none;
+    
+}
+.Faq_Heading button a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Styling the question container */
+.Question_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+    font-weight: 400; /* Add some space between questions */
+}
+
+/* Styling the question itself */
+.question {
+    margin: 1vh 0; /* Adjust question margins */
+}
+
+.question h2 {
+    font-weight: 400; /* Increase font weight for question text */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 720px) {
+    .Faq_Section {
+        display: block;
+        margin: 10vh auto;
+        width: 100vw; 
+        margin-left: 10vw;/* Center vertically and adjust horizontally */
+    }
+    .Faq_Heading {
+        width: 90vw;
+        text-align: center; /* Center the heading text */
+    }
+    .Faq_Heading h4 {
+        width: 100%; /* Make the heading text span the entire width */
+        margin-top: 2vh; /* Slightly adjust the top margin */
+    }
+    .Faq_Heading button {
+        margin-top: 2vh; /* Adjust button margin */
+        width: 100%; /* Make the button span the entire width */
+        height: 3rem; /* Increase button height for better visibility */
+    }
+    .Question_container {
+        margin-left: 0; 
+        width: 90vw;/* Remove left margin on smaller screens */
+    }
+}

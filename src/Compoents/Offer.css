@@ -1,0 +1,32 @@
+.Offer_1{
+    margin: 10vw;
+    display: flex;
+}
+.dev_offer_img img{
+    width: 30vw;
+}
+.offer_context h2{
+    margin-bottom: 5vh;
+}
+.offer_img2{
+    display: none;
+}
+
+
+@media (max-width:720px) {
+
+.Offer_1{
+    display: block;
+}   
+.dev_offer_img img{
+    width: 90vw;
+    display: none;
+}
+.offer_img2 img{
+    width: 90vw;
+    
+}
+.offer_img2{
+    display: block
+}
+}

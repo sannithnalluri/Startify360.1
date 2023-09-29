@@ -1,0 +1,22 @@
+.phone_header{
+    background-color: rgb(59, 185,225);
+    padding: 2vw;
+    max-width: 100vw;
+    display: flex;
+}
+.phone_logo{
+    width: 60vw;
+}
+.phone_logo img{
+    width: 80%;
+}
+.Menu_icons{
+    display: flex;
+    margin-left: 30vw;
+}
+.heroimg{
+    width: 40vw;
+}
+.heroimg img{
+    width: 100%;
+}

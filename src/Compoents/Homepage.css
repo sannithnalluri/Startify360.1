@@ -1,0 +1,82 @@
+.hero_section{
+display: flex;
+padding-top:7vh;
+}
+.content h1{
+font-family: 'Tienne', serif;
+font-size: 50px;
+font-weight: 500;
+}
+.content{
+    width: 40vw;
+    padding: 10px;
+    margin-left:10vw;
+    margin-top: 15vh;
+    margin-bottom: 2vh;
+}
+.cta_section{
+    margin-top: 5vh;
+   
+}
+.cta_section button{
+    margin: 0px 2vw;
+    padding: 10px;
+    background-color: rgb(93, 212, 255);
+    color: white;
+    border: none;
+
+}
+.cta_section  button a{
+    color: white;
+}
+.cta_section A{
+    color: rgb(93, 212, 255);
+}
+.About_us{
+    display: flex;
+    margin: 5vh 10vw;
+}
+.about_img img{
+    width: 40vw;
+}
+.About_content{
+    margin-top: 5vh;
+}
+.About_content h2{
+    margin-top:1vh;
+}
+.About_content p{
+    margin-top: 2vh;
+}
+.heroimg2{
+    display: none;
+}
+@media (max-width:720px) {
+    .hero_section{
+        display: block;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+    .content{
+        width: 90vw;
+        margin-top: 4vh;
+    margin-left: 5vw;    }
+    .heroimg2 img{
+        display: block;
+        width: 90vw;
+    }
+    .heroimg{display: none;}
+    .cta_section{
+        display: flex;
+        justify-content: space-around;
+    }
+    .About_us{
+        display: block;
+
+    }
+    .about_img img{
+        width: 90vw;
+
+    }
+}
