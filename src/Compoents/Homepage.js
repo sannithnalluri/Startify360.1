@@ -10,9 +10,12 @@ import ReactGA from 'react-ga';
 
 const Homepage = () => {
     useEffect(() => {
-        ReactGA.pageview(window.location.pathname + window.location.search);
+        try {
+          ReactGA.pageview(window.location.pathname + window.location.search);
+        } catch (error) {
+          console.error('Error in Google Analytics tracking:', error);
+        }
       }, []);
-      
    
     return (
         <div>
