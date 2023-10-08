@@ -5,7 +5,15 @@ import Offer from './Offer';
 import Pricing from './Pricing';
 import Faq from './Faq';
 import Footer from './Footer';
+import { useEffect } from 'react';
+import ReactGA from 'react-ga';
+
 const Homepage = () => {
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+      }, []);
+      
+   
     return (
         <div>
             <Mainpage/>

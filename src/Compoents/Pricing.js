@@ -3,11 +3,13 @@ import './Pricing.css';
 import {BsPcDisplay} from 'react-icons/bs';
 import {AiOutlineSetting,AiOutlineDatabase} from 'react-icons/ai';
 import{BiCustomize}from 'react-icons/bi'
+
 const Pricing = () => {
     return (
         <div className='Pricing_section'>
             <h1>Pricing Plan</h1>
             <div className='Pricing_container'> 
+            Starting from
             <div className='price_contain'>
                 <div className='mini_icon'>
                     <img src={require('./Assests/compassblack.png')} alt='compassblack'/>

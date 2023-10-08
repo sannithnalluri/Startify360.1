@@ -7,6 +7,7 @@
     max-width: 45vw;
     font-family: 'Titilliumweb';
     font-weight: 400;
+    border: 2px solid black;
 }
 
 /* Styling the FAQ heading */
